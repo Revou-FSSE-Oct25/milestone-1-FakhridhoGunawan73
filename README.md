@@ -29,4 +29,4 @@ Portofolio ini adalah representasi dari keterampilan dan proyek saya di RevoU. P
 Menggunakan HTML dan sedikit CSS
 
 ## Deploy
-link : 
+link : https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/
