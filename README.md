@@ -26,7 +26,11 @@ Portofolio ini adalah representasi dari keterampilan dan proyek saya di RevoU. P
 - Desain Kontras: Menggunakan skema warna latar belakang yang kontras untuk body dan footer.
 
 ## Technologies Used
-Menggunakan HTML dan sedikit CSS
+Beberapa teknologi yang saya gunakan :
+
+- VSCode
+- Github
+- HTML & CSS
 
 ## Deploy
 link : https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/
