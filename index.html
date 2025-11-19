@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body id="grad">
     <div class="container">
         <header>
             <a href="#">Fakhridho Gunawan</a>
@@ -15,7 +15,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Projects</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">CV</a></li>
                     </ul>
@@ -30,13 +30,16 @@
         <!-- ================Home================ -->
          <div class="flex">
             <div class="home-section">
-                <h2>Hi, I'm Fakhridho Gunawan</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia. Atque, voluptatem aliquam cumque vero totam nemo similique commodi esse.</p>
+                <article class="image-section">
+                    <img src="asset/images/site_coding_4.png" alt="">
+                    <h2 class="sub-tittle">Hi, I'm Fakhridho Gunawan</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia. Atque, voluptatem aliquam cumque vero totam nemo similique commodi esse.</p>
+                </article>
             </div>
             <div class="main-hero">
-                <h2>About Me</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eaque sint ullam praesentium ipsum reiciendis. Odio placeat similique eius facere?</p>
-                <a href="">Contact Me</a>
+                <h2 class="sub-tittle">About Me</h2>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eaque sint ullam praesentium ipsum reiciendis. Odio placeat similique eius facere?</p>
+                <div class="contact-section"><a href="">Contact Me</a></div>
             </div>
  
             </div>
@@ -57,10 +60,37 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <h2><p>Footer</p></h2>
-        </footer>
     </div>
-    
+    <footer>
+        <div class="upper-footer">
+            <section class="footer-items">
+                <h3>My Portfolio</h3>
+                <p>Exploring the latest info on my portfolio</p>
+            </section>
+            
+            <section class="footer-items">
+                <h3>Quick links</h3>
+                <ul>
+                    <li class="slide-items"><a href="#">Home</a></li>
+                    <li class="slide-items"><a href="#">About</a></li>
+                    <li class="slide-items"><a href="#">Projects</a></li>
+                    <li class="slide-items"><a href="#">Contact</a></li>
+                    <li class="slide-items"><a href="#">CV</a></li>
+                </ul>
+            </section>
+            
+            <section class="footer-items">
+                <h3>Follow me</h3>
+                <ul class="social-media">
+                    <li><a href="#"><img src="asset/icon/logo instagram.jpeg" alt=""></a></li>
+                    <li><a href="#"><img src="asset/icon/logo linkedin.png" alt=""></a></li>
+                    <li><a href="#"><img src="asset/icon/logo github.png" alt=""></a></li>
+                </ul>
+            </section>
+        </div>
+        <section class="copyright-section">
+            <p>&copy; 2025 fakhridhogunawan01@gmail.com. All rights reserved.</p>
+        </section>
+    </footer>  
 </body>
 </html>
