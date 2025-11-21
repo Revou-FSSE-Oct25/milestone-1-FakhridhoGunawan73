@@ -7,66 +7,110 @@
     <link rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
-<body id="grad">
-    <div class="container">
-        <header class="navbar">
-            <h1><a href="#">Fakhridho Gunawan</a></h1>
-            <div class="menu-list">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">CV</a></li>
-                    </ul>
-                    <i class="ph ph-list"></i>
-                </nav>
+<body>
+    <header>
+        <nav aria-label="main navigation">
+            <div id="home" class="logo" aria-label="homepage fakhridho gunawan">
+                <img src="asset/images/Foto Fakhridho.jpg" alt="my-avatar">
             </div>
-        </header>
-
-        <!-- main -->
-
+            <div class="menu-icon">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul>
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- main -->
+    <div class="container">
         <main>
 
         <!-- ================Home================ -->
          <div class="flex">
-            <!-- <div class="home-section"> -->
+            <section aria-label="home section">
                 <article class="image-section">
-                    <img src="asset/images/site_coding_4.png" alt="">
+                    <img src="asset/images/site_coding_4.png" alt="image hero">
                     <div class="post-content">
-                        <h2 class="sub-tittle">Hi, I'm Fakhridho Gunawan</h2>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia. Atque, voluptatem aliquam cumque vero totam nemo similique commodi esse.</p>
+                        <h2 class="hero-title">Hi, I'm Fakhridho Gunawan</h2>
+                        <p class="paragraph">I am currently undergoing intensive training to become a Full Stack Developer through RevoU. I am focused on building responsive Front-End development that is ready for integration with Back-End and APIs</p>
+                        <div class="button-contact">
+                            <a href="#contact">Contact Me</a>
+                        </div>
                     </div>
                 </article>
-            <!-- </div> -->
+            </section>
+        
+        <!-- ================About================ -->    
             <div class="about-section">
-                <h2>About Me</h2>
-                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eaque sint ullam praesentium ipsum reiciendis. Odio placeat similique eius facere?</p>
-                <div class="contact-section"><a href="">Contact Me</a></div>
-            </div>
- 
-            </div>
-            <h2>Project</h2>
-            <div class="card-container">
-                <div class="card-row">
-                    <div class="card-column">
-                        <div class="card-item">
-                            <p>Coming Soon</p>
-                        </div>
-                        <div class="card-item">
-                            <p>Coming Soon</p>
-                        </div>
-                        <div class="card-item">
-                            <p>Coming Soon</p>
-                        </div>
+                <section id="about" aria-label="about section">
+                    <h2>About Me</h2>
+                    <p class="paragraph">Hello! I'm Fakhridho Gunawan, an Aspiring Full Stack Software Engineer currently undergoing an intensive bootcamp program at RevoU FSSE. My strong focus right now is on building responsive and pixel-perfect Front-End development.</p>
+    
+                    <p class="paragraph">I have built a solid foundation with HTML, Vanilla CSS, and Git/GitHub, and am actively mastering Tailwind CSS for efficient styling. The portfolio projects I've completed demonstrate my ability to translate functional designs into integration-ready user interfaces.</p>
+    
+                    <p class="paragraph">Although currently in the process of achieving Full Stack mastery (with Back-End material forthcoming), I am ready to pursue Front-End internship or Junior positions to immediately apply my Front-End skills and contribute to meaningful solutions. Let's connect!</p>
+                    <div class="button-cv">
+                        <a href="asset/document/CV FakhridhoGunawan.pdf" download="CV FakhridhoGunawan.pdf">Download CV</a>
                     </div>
-                </div>
+                </section>
             </div>
+        </div>
+
+        <!-- ================Projects================ -->  
+         <section id="projects" aria-label="projects-section">
+             <h2 class="project-title">Projects</h2>
+             <div class="card-container">
+                 <div class="card-row">
+                     <div class="card-column">
+                             <div class="card-item">
+                                 <img src="asset/images/projects.jpg" alt="project1">
+                                 <p>Coming Soon</p>
+                             </div>
+                             <div class="card-item">
+                                 <img src="asset/images/projects.jpg" alt="project2">
+                                 <p>Coming Soon</p>
+                             </div>
+                             <div class="card-item">
+                                 <img src="asset/images/projects.jpg" alt="project3">
+                                 <p>Coming Soon</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+         </section>  
+
+    <!-- ================Contact================ -->
+     <section id="contact" aria-label="contact-section">
+         <div class="form-container">
+             <form id="form-section">
+                 <fieldset class="fieldset-form">
+                     <legend class="header-form">Contact Me</legend>
+                 <label for="fullname">Full Name</label><br>
+                 <input class="input-contact" type="text" name="name" id="name" placeholder="Your Name...."><br><br>
+                 
+                 <label for="email">Email</label><br>
+                 <input class="input-contact" type="email" name="email" id="email" placeholder="your@email.com...."><br><br>
+                 
+                 <label for="message">Message</label><br>
+                 <textarea cols="120" rows="12" name="message" id="message" placeholder="Write a message to send me...."></textarea>
+     
+                 <button class="button-submit" type="submit">Submit</button>
+                 </fieldset>
+             </form>
+         </div>
+     </section>
+    
         </main>
     </div>
+
+    <!-- ================Footer================ -->
     <footer>
         <div class="upper-footer">
             <section class="footer-items">
@@ -76,21 +120,20 @@
             
             <section class="footer-items">
                 <h3>Quick links</h3>
-                <ul>
-                    <li class="slide-items"><a href="#">Home</a></li>
-                    <li class="slide-items"><a href="#">About</a></li>
-                    <li class="slide-items"><a href="#">Projects</a></li>
-                    <li class="slide-items"><a href="#">Contact</a></li>
-                    <li class="slide-items"><a href="#">CV</a></li>
+                <ul class="quick-link-item">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </section>
             
             <section class="footer-items">
                 <h3>Follow me</h3>
                 <ul class="social-media">
-                    <li><a href="#"><img src="asset/icon/logo instagram.jpeg" alt=""></a></li>
-                    <li><a href="#"><img src="asset/icon/logo linkedin.png" alt=""></a></li>
-                    <li><a href="#"><img src="asset/icon/logo github.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/fakhridhognwn"><img src="asset/icon/logo instagram.jpeg" alt="icon instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/fakhridho-gunawan/"><img src="asset/icon/logo linkedin.png" alt="icon linkedin"></a></li>
+                    <li><a href="https://github.com/FakhridhoGunawan73"><img src="asset/icon/logo github.png" alt="icon github"></a></li>
                 </ul>
             </section>
         </div>
