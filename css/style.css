@@ -13,6 +13,11 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 16px 32px;
+    
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 1000;
 }
 
 .logo img {
@@ -47,6 +52,7 @@ nav ul li a:hover {
 
 .menu-icon {
     font-size: 28px;
+    padding: 16px;
     display: flex;
     align-items: center;
 }
@@ -78,6 +84,7 @@ nav ul li a:hover {
     padding: 15px;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 110px;
 }
 
 .image-section img {
