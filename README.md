@@ -29,16 +29,16 @@ Tujuan utama dari situs ini adalah untuk menyajikan Proyek Front-End saya saat i
 ### 1. Desktop View 
 Ini adalah screenshot tampilan full layout di layar desktop
 
-![alt text](127.0.0.1_3000_index.html_name=&email=&message=.png)
+![alt text](/asset/images/Desktop%20ss.png)
 
 ### 2. Mobile View (Responsive Demo)
 Ini adalah screenshot tampilan full layout di layar mobile phone
 
-![alt text](<127.0.0.1_3000_index.html_name=&email=&message= (1).png>)
+![alt text](/asset/images/Mobile%20ss.png)
 
 ### 3.Key Layout Feature Showcase
 
-![alt text](<Highlights web.png>)
+![alt text](/asset/images/Highlights%20web.png)
 
 ## Technologies Used
 Beberapa teknologi yang saya gunakan :
