@@ -2,35 +2,61 @@
 # Revou Student Portfolio
 
 ## Overview
-Selamat datang di Portofolio Fakhridho Gunawan.
+Ini adalah portfolio pribadi saya yang berfungsi sebagai tampilan komprehensif dari keterampilan teknis, proyek, dan perjalanan saya sebagai Calon Full Stack Software Engineer dari bootcamp intensif RevoU FSSE.
 
-Portofolio ini adalah representasi dari keterampilan dan proyek saya di RevoU. Proyek website portofolio ini secara khusus saya kerjakan sebagai bagian dari penyelesaian program studi saya di RevoU
+Tujuan utama dari situs ini adalah untuk menyajikan Proyek Front-End saya saat ini dan menyediakan sarana yang mudah bagi perekrut atau kolaborator untuk menghubungi saya.
 
-## Features Implemented
-- Portofolio ini dibangun menggunakan HTML dasar dan memiliki fitur-fitur utama sebagai berikut:
+## Features Implemented (CSS Styling Focus)
 
-- Struktur Navigasi Penuh: Header dengan link navigasi ke Home, About, Projects, Contact, dan link Download CV.
+- Situs ini dikembangkan dengan fokus pada Responsive Web Design dan pengalaman pengguna yang bersih. Fitur utama meliputi:
 
-- Profil Visual: Menampilkan foto profil melingkar dengan styling CSS sederhana.
+- Responsive Layout: Seluruh tata letak (Header, Hero Section, About Me, Contact Form, Footer) disesuaikan dan berfungsi dengan baik pada berbagai ukuran viewport, mulai dari desktop hingga mobile (termasuk responsive Contact Form).
 
-- Bagian Konten: Terdapat section khusus untuk About (deskripsi diri) dan Projects (daftar proyek).
+- Hero Section Dynamics: Penggunaan CSS untuk menata elemen Ilustrasi dan Teks secara berdampingan pada desktop, yang akan otomatis menumpuk (stack) pada mobile.
 
-- Formulir Kontak Lengkap:
+- Clean Typography: Penggunaan font yang bersih dan readability yang tinggi untuk semua konten (About Me dan Deskripsi Proyek).
 
-    - Formulir untuk "Get In Touch" dengan input Nama, Email, Gender (Radio Button), dan Pesan (Textarea).
+- Custom Styling:
 
-    - Dilengkapi tombol Reset dan Submit.
+    - Consistent Color Palette: Implementasi skema warna coklat dan krem yang konsisten di seluruh elemen container dan latar belakang.
 
-- Integrasi Media Sosial: Footer mencantumkan link dan ikon ke GitHub, Instagram, dan LinkedIn.
+    - Contact Form Styling: Penataan input field dan tombol Submit yang jelas agar mudah diakses.
 
-- Desain Kontras: Menggunakan skema warna latar belakang yang kontras untuk body dan footer.
+    - Button Styling: Penataan tombol Contact Me dan Download CV yang menonjol sebagai Call-to-Action (CTA) yang jelas.
+
+## Demo and Screenshoot of CSS Implementation
+
+### 1. Desktop View 
+Ini adalah screenshot tampilan full layout di layar desktop
+
+![alt text](127.0.0.1_3000_index.html_name=&email=&message=.png)
+
+### 2. Mobile View (Responsive Demo)
+Ini adalah screenshot tampilan full layout di layar mobile phone
+
+![alt text](<127.0.0.1_3000_index.html_name=&email=&message= (1).png>)
+
+### 3.Key Layout Feature Showcase
+
+![alt text](<Highlights web.png>)
 
 ## Technologies Used
 Beberapa teknologi yang saya gunakan :
 
-- VSCode
-- Github
-- HTML & CSS
+- HTML5	: Struktur konten web yang semantik.
+
+- Vanilla CSS : Digunakan untuk tata letak dan penataan dasar.
+
+- Git/GitHub : Manajemen kode, branching, dan deployment.
+
+## Get Started
+Untuk menjalankan proyek ini secara lokal:
+
+Clone Repositori:
+
+```bash
+git clone [https://github.com/Revou-FSSE-Oct25/milestone-1-FakhridhoGunawan73]
+```
 
 ## Deploy
 link : https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/
