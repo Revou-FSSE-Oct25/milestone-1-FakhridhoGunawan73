@@ -1,62 +1,132 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KTVBmApB)
 # Revou Student Portfolio
 
-## Overview
-Ini adalah portfolio pribadi saya yang berfungsi sebagai tampilan komprehensif dari keterampilan teknis, proyek, dan perjalanan saya sebagai Calon Full Stack Software Engineer dari bootcamp intensif RevoU FSSE.
+# Portfolio Website – Fakhridho Gunawan
 
-Tujuan utama dari situs ini adalah untuk menyajikan Proyek Front-End saya saat ini dan menyediakan sarana yang mudah bagi perekrut atau kolaborator untuk menghubungi saya.
+Ini adalah website portfolio pribadi yang saya bangun sebagai bagian dari proses pembelajaran dalam membangun website menggunakan HTML dan CSS (serta Tailwind CSS). Website ini menampilkan profil, perjalanan karier, project-project yang pernah saya buat, dan form kontak agar pengunjung dapat menghubungi saya.
 
-## Features Implemented (CSS Styling Focus)
+Website ini terus diperbarui seiring berkembangnya kemampuan saya dalam pengembangan web front-end.
 
-- Situs ini dikembangkan dengan fokus pada Responsive Web Design dan pengalaman pengguna yang bersih. Fitur utama meliputi:
+## 🚀 Overview
 
-- Responsive Layout: Seluruh tata letak (Header, Hero Section, About Me, Contact Form, Footer) disesuaikan dan berfungsi dengan baik pada berbagai ukuran viewport, mulai dari desktop hingga mobile (termasuk responsive Contact Form).
+Website portfolio ini terdiri dari beberapa section utama:
 
-- Hero Section Dynamics: Penggunaan CSS untuk menata elemen Ilustrasi dan Teks secara berdampingan pada desktop, yang akan otomatis menumpuk (stack) pada mobile.
+- Home / Hero – Menampilkan perkenalan singkat dan foto diri.
 
-- Clean Typography: Penggunaan font yang bersih dan readability yang tinggi untuk semua konten (About Me dan Deskripsi Proyek).
+- About – Berisi perjalanan saya dalam dunia Software Engineering dan sedikit tentang kepribadian saya.
 
-- Custom Styling:
+- Projects – Kumpulan project sederhana yang saya buat untuk melatih kemampuan front-end.
 
-    - Consistent Color Palette: Implementasi skema warna coklat dan krem yang konsisten di seluruh elemen container dan latar belakang.
+- Contact – Form untuk menghubungi saya, lengkap dengan input nama, email, dan pesan.
 
-    - Contact Form Styling: Penataan input field dan tombol Submit yang jelas agar mudah diakses.
+- Footer – Menampilkan informasi kontak, navigasi, dan social links.
 
-    - Button Styling: Penataan tombol Contact Me dan Download CV yang menonjol sebagai Call-to-Action (CTA) yang jelas.
+Website ini dibuat dengan struktur HTML yang rapi serta styling menggunakan CSS dan Tailwind CSS untuk menghasilkan layout yang modern dan responsif.
 
-## Demo and Screenshoot of CSS Implementation
+## ⭐ Features Implemented
 
-### 1. Desktop View 
-Ini adalah screenshot tampilan full layout di layar desktop
+- Struktur HTML lengkap dan semantik (header, section, footer, dll.)
 
-![alt text](/asset/images/Desktop%20ss.png)
+- Navigasi bekerja dengan baik
 
-### 2. Mobile View (Responsive Demo)
-Ini adalah screenshot tampilan full layout di layar mobile phone
+- Konten sudah tertata: Home, About, Projects, Contact
 
-![alt text](/asset/images/Mobile%20ss.png)
+- Hosted di GitHub Pages
 
-### 3.Key Layout Feature Showcase
+- Styling menggunakan Tailwind CSS dan custom CSS
 
-![alt text](/asset/images/Highlights%20web.png)
+- Desain responsif untuk tampilan mobile, tablet, dan desktop
 
-## Technologies Used
-Beberapa teknologi yang saya gunakan :
+- Efek hover pada tombol dan social icons
 
-- HTML5	: Struktur konten web yang semantik.
+- Layout grid pada section Projects
 
-- Vanilla CSS : Digunakan untuk tata letak dan penataan dasar.
+- Warna, typography, dan spacing yang konsisten
 
-- Git/GitHub : Manajemen kode, branching, dan deployment.
+- Style form contact agar mudah dibaca dan digunakan
 
-## Get Started
-Untuk menjalankan proyek ini secara lokal:
+- Penggunaan border, shadow, dan background untuk mempercantik UI
 
-Clone Repositori:
+## 🛠️ Technologies Used
+
+Website ini dibuat menggunakan teknologi berikut:
+
+HTML5 – Struktur konten dan layout utama
+
+CSS3 – Custom styling tambahan
+
+Tailwind CSS – Utility-first styling untuk mempercepat proses development
+
+Git & GitHub – Version control dan hosting repository
+
+GitHub Pages – Hosting website (deployment)
+
+## 🌐 Demo Website 
+
+| Deskripsi                                       | Link                                              |
+| ----------------------------------------------- | ------------------------------------------------- |
+| **Deployed Website** | https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/             |
+| **Source Code Repository**                      | https://github.com/FakhridhoGunawan73         |
+
+## 🖼️ Screenshots
+
+Berikut adalah tampilan dari website portfolio ini:
+
+📌 Homepage
+
+![alt text](assets/screenshots/Home.png)
+
+📌 About Section
+
+![alt text](assets/screenshots/About.png)
+
+📌 Projects Section
+
+![alt text](assets/screenshots/Projects.png)
+
+📌 Contact Section
+
+![alt text](assets/screenshots/Contact.png)
+
+## 📁 Project Structure
+
+Berikut struktur folder yang digunakan dalam project ini:
 
 ```bash
-git clone [https://github.com/Revou-FSSE-Oct25/milestone-1-FakhridhoGunawan73]
+📁 milestone-1-Fakhridhogunawan73
+│
+├── 📁 assets
+│ ├── 📁 document
+│ ├── 📁 font
+│ ├── 📁 images
+│ └── 📁 screenshots
+│
+├── 📄 index.html
+└── 📄 README.md
 ```
 
-## Deploy
-link : https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/
+## 📌 How to Run the Project Locally
+
+Clone repository:
+```bash
+git clone https://revou-fsse-oct25.github.io/milestone-1-FakhridhoGunawan73/
+```
+
+Buka folder project:
+```bash
+cd nama-repo
+```
+
+Buka file:
+
+```bash
+index.html
+```
+
+## 📬 Contact
+
+Jika ingin berdiskusi, bertanya, atau bekerja sama dengan saya, silakan hubungi:
+
+Email: fakhridhogunawan01@gmail.com
+
+Lokasi: Bangkinang, Riau
