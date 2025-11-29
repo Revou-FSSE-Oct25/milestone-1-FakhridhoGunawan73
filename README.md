@@ -31,8 +31,6 @@ Website ini dibuat dengan struktur HTML yang rapi serta styling menggunakan CSS 
 
 - Konten sudah tertata: Home, About, Projects, Contact
 
-- Hosted di GitHub Pages
-
 - Styling menggunakan Tailwind CSS dan custom CSS
 
 - Desain responsif untuk tampilan mobile, tablet, dan desktop
@@ -46,6 +44,8 @@ Website ini dibuat dengan struktur HTML yang rapi serta styling menggunakan CSS 
 - Style form contact agar mudah dibaca dan digunakan
 
 - Penggunaan border, shadow, dan background untuk mempercantik UI
+
+- Hosted di GitHub Pages
 
 ## 🛠️ Technologies Used
 
