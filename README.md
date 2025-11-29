@@ -39,7 +39,7 @@ Website ini dibuat dengan struktur HTML yang rapi serta styling menggunakan CSS 
 
 - Efek hover pada tombol dan social icons
 
-- Layout grid pada section Projects
+- Layout flex pada section Projects
 
 - Warna, typography, dan spacing yang konsisten
 
